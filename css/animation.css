@@ -114,3 +114,23 @@ input:focus::-webkit-input-placeholder {
 .nav-link:hover{
     color: var(--ah-secondary);
 }
+
+/* CARD HOVER */
+.card-img{
+    box-shadow: none;
+    border: none;    
+        outline: solid 2px transparent;
+        transition: .5s ease-in-out;
+}
+.card-img:active{
+    outline: solid 3px var(--ah-secondary);
+        outline-offset: 2px;
+        transition: none;
+}
+
+.card-img:focus,
+.card-img:hover{ 
+    cursor: pointer;
+    transform: translate(0px, -20px);
+    box-shadow: 0 20px 10px -2px gray;
+}

@@ -95,3 +95,18 @@ body{
     color: white !important;
 }
 /* MAIN */
+
+/* CARD */
+.mycard{
+    width: 18rem;
+    gap: 20px;
+
+    border-radius: 30px;
+}
+.card-img{
+    height: 100%;
+    width: 100%;
+        object-fit: cover;
+        border-radius: 15px;
+        box-shadow: 0 0 0px;
+}
