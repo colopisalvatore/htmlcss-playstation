@@ -90,7 +90,7 @@ input:focus::-webkit-input-placeholder {
 .navbar .action-buttons .dropdown-toggle::after {
     display: none;
 }
-.navbar .dropdown-toggle::after {
+#login .dropdown-toggle::after {
     display: none;
 }
 

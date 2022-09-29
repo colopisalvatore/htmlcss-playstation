@@ -82,9 +82,9 @@ body{
     color: var(--ah-black-100);
     font-weight: bold;
 }
-/* JUMBOTRON */
+/* HERO SECTION */
 
-.jumbotron-image {
+.hero-image {
     width: 100%;
     height: calc(100vh - 97px);
     background-image: url(../img/jumbo-bg.png);
