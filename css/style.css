@@ -46,11 +46,17 @@ body{
 }
 
 /* COMMON */
+.section-spacing{
+    margin-top: 3rem;
+}
 .right {
     float: right
 }
 .text-color-blue{
     color: var(--ah-secondary);
+}
+.my-padding{
+    padding-top: 250px;
 }
 /* HEADER */
 
@@ -89,18 +95,35 @@ body{
 }
 /* HERO SECTION */
 
-.hero-image {
-    width: 100%;
-    height: fit-content;
-    background-image: url(../img/jumbo-bg.png);
+.hero {
     background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
 
     color: white !important;
 }
-/* MAIN */
 
+/* MAIN */
+/* BACKGROUND */
+
+#hero {
+    background-image: url('../img/jumbo-bg.png');
+}
+
+#hero-2 {
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+}
+#ps-plus {
+    background-color: var(--ah-grey-100);
+}
+
+#ps-now {
+    background-color: var(--ah-blue-300);
+}
+
+footer {
+    background-color: var(--ah-blue-100);
+}
 /* CARD */
 .mycard{
     width: 18rem;
