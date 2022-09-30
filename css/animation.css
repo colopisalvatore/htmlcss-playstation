@@ -95,19 +95,34 @@ input:focus::-webkit-input-placeholder {
 }
 
 /* BUTTON */
-
-.btn-orange{
-    background-color: var(--ah-primary)!important;
-    color: var(--ah-white);
-    border: solid 2px black!important;
+.btn-white{
+    border: solid 2px black !important;
         outline: solid 2px transparent;
 }
 
+.btn-blue{
+    border: solid 2px white !important;
+        outline: solid 2px transparent;
+}
+.btn-blue:hover{
+    outline: solid 2px var(--ah-secondary-hover);
+        cursor: pointer;
+}
+
+.btn-orange{
+    border: solid 2px black !important;
+    background-color: var(--ah-primary)!important;
+    color: var(--ah-white);
+    
+}
 .btn-orange:hover{
     outline: solid 2px var(--ah-primary);
         cursor: pointer;
 }
-
+.btn-white:hover {
+    outline: solid 2px var(--ah-white);
+    cursor: pointer;
+}
 
 /* HOVER EFFECTS */
 .nav-link:focus,

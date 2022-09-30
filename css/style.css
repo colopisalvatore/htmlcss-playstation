@@ -31,8 +31,8 @@ body{
     --ah-green-200: #009e0f;
     --ah-green-300: #14664b;
     --ah-blue-100: #0076f1;
-    --ah-blue-200: #086fda;
-    --ah-blue-300: #0056b3;
+    --ah-blue-200: #00439c;
+    --ah-blue-300: #161c3b;
     --ah-grey-100: #2e2e2e;
     --ah-grey-200: #6d6d6d;
     --ah-grey-300: #969696;
@@ -122,7 +122,7 @@ body{
 }
 
 footer {
-    background-color: var(--ah-blue-100);
+    background-color: var(--ah-blue-200);
 }
 /* CARD */
 .mycard{
