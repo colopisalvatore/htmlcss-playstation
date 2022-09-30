@@ -116,21 +116,41 @@ input:focus::-webkit-input-placeholder {
 }
 
 /* CARD HOVER */
-.card-img{
+#card .card-img{
     box-shadow: none;
     border: none;    
         outline: solid 2px transparent;
         transition: .5s ease-in-out;
 }
-.card-img:active{
+#card .card-img:active{
     outline: solid 3px var(--ah-secondary);
         outline-offset: 2px;
         transition: none;
 }
-
-.card-img:focus,
-.card-img:hover{ 
+#card .card-img:focus,
+#card .card-img:hover{ 
     cursor: pointer;
     transform: translate(0px, -20px);
     box-shadow: 0 20px 10px -2px gray;
+}
+
+/* HOVER ACCESSORI */
+.hover-underline-animation {    
+    position: relative;
+}
+.hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--ah-secondary-hover);
+    transform-origin: bottom center;
+    transition: transform 0.25s ease-out;
+}
+.hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom center;
 }

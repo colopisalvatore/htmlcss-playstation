@@ -49,6 +49,9 @@ body{
 .right {
     float: right
 }
+.text-color-blue{
+    color: var(--ah-secondary);
+}
 /* HEADER */
 
 /* BARRA LOGO SONY */
@@ -71,6 +74,8 @@ body{
 }
 /* BARRA DI NAVIGAZIONE */
 #nav {
+    position: sticky;
+
     padding: 0 1.25rem;
     height: 64px;
     min-width: 320px;
@@ -86,7 +91,7 @@ body{
 
 .hero-image {
     width: 100%;
-    height: calc(100vh - 97px);
+    height: fit-content;
     background-image: url(../img/jumbo-bg.png);
     background-repeat: no-repeat;
         background-position: center;
@@ -109,4 +114,8 @@ body{
         object-fit: cover;
         border-radius: 15px;
         box-shadow: 0 0 0px;
+}
+.media-block{ 
+    width: 12rem;
+    gap: 20px;
 }
