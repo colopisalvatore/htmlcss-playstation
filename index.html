@@ -19,13 +19,14 @@
     <title>Playstation</title>
 </head>
 <body>
-    <header>
-        <!-- LOGO SONY -->
-        <div id="sony-bar" class="sony-bar">
-            <a href="https://www.sony.com/" class="sony-logo">
-                <img src="./img/sony_logo.svg" alt="" class="">
-            </a>
-        </div>
+    <!-- LOGO SONY -->
+    <div id="sony-bar" class="sony-bar">
+        <a href="https://www.sony.com/" class="sony-logo">
+            <img src="./img/sony_logo.svg" alt="" class="">
+        </a>
+    </div>
+    <header class="sticky-top">
+        
         <!-- NAVBAR -->
         <nav id="nav" class="navbar navbar-expand-xl navbar-light bg-light">
             <div class="container-fluid">
@@ -54,84 +55,131 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">                    
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Giochi
+                    <ul class="navbar-nav mb-2 mb-lg-0 flex-lg-grow-1">
+                        <li class="nav-item dropdown position-static">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Giochi
                             </a>
-                            <!-- DROPDOWN -->
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <ul class="dropdown-menu my-menu mt-0 border-0 shadow">
+                                <li class="d-flex flex-row justify-content-center">
+                                    <div class=""><a class="dropdown-item fw-bold " href="#"><img src="img/play-menu-ico.png" class="img-fluid w-75"><br><span>PlayStation 5</span></a></div>
+                                    <div class=""><a class="dropdown-item fw-bold " href="#"><img src="img/play-menu-ico.png" class="img-fluid w-75"><br><span>PlayStation 4</span></a></div>
+                                    <div class=""><a class="dropdown-item fw-bold " href="#"><img src="img/play-menu-ico.png" class="img-fluid w-75"><br><span>PlayStation 3</span></a></div>
+                                </li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li class="d-flex flex-row justify-content-center">
+                                    <div><a class="dropdown-item fw-bold hover-underline-animation" href="#">Indie</a></div>
+                                    <div><a class="dropdown-item fw-bold hover-underline-animation" href="#">Titoli per PS4 su PS5</a></div>
+                                    <div><a class="dropdown-item fw-bold hover-underline-animation" href="#">Free to Play</a></div>
+                                    <div><a class="dropdown-item fw-bold hover-underline-animation" href="#">Promozioni e offerte</a></div>
+                                </li>
                             </ul>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
+                        <li class="nav-item dropdown position-static">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Hardware
                             </a>
-                            <!-- DROPDOWN -->
-
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <ul class="dropdown-menu my-menu mt-0 border-0 shadow">
+                                <li class="d-flex flex-row justify-content-center">
+                                    <div class=""><a class="dropdown-item fw-bold " href="#"><img src="img/play-menu-ico.png" class="img-fluid w-75"><br><span>PlayStation 5</span></a></div>
+                                    <div class=""><a class="dropdown-item fw-bold " href="#"><img src="img/play-menu-ico.png" class="img-fluid w-75"><br><span>PlayStation 4</span></a></div>
+                                    <div class=""><a class="dropdown-item fw-bold " href="#"><img src="img/play-menu-ico.png" class="img-fluid w-75"><br><span>PlayStation 3</span></a></div>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li class="d-flex flex-row justify-content-center">
+                                    <div><a class="dropdown-item fw-bold hover-underline-animation" href="#">Indie</a></div>
+                                    <div><a class="dropdown-item fw-bold hover-underline-animation" href="#">Titoli per PS4 su PS5</a></div>
+                                    <div><a class="dropdown-item fw-bold hover-underline-animation" href="#">Free to Play</a></div>
+                                    <div><a class="dropdown-item fw-bold hover-underline-animation" href="#">Promozioni e offerte</a></div>
+                                </li>
                             </ul>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
+                        <li class="nav-item dropdown position-static">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Servizi
                             </a>
-                            <!-- DROPDOWN -->
-
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <ul class="dropdown-menu my-menu mt-0 border-0 shadow">
+                                <li class="d-flex flex-row justify-content-center">
+                                    <div class=""><a class="dropdown-item fw-bold " href="#"><img src="img/play-menu-ico.png" class="img-fluid w-75"><br><span>PlayStation 5</span></a></div>
+                                    <div class=""><a class="dropdown-item fw-bold " href="#"><img src="img/play-menu-ico.png" class="img-fluid w-75"><br><span>PlayStation 4</span></a></div>
+                                    <div class=""><a class="dropdown-item fw-bold " href="#"><img src="img/play-menu-ico.png" class="img-fluid w-75"><br><span>PlayStation 3</span></a></div>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li class="d-flex flex-row justify-content-center">
+                                    <div><a class="dropdown-item fw-bold hover-underline-animation" href="#">Indie</a></div>
+                                    <div><a class="dropdown-item fw-bold hover-underline-animation" href="#">Titoli per PS4 su PS5</a></div>
+                                    <div><a class="dropdown-item fw-bold hover-underline-animation" href="#">Free to Play</a></div>
+                                    <div><a class="dropdown-item fw-bold hover-underline-animation" href="#">Promozioni e offerte</a></div>
+                                </li>
                             </ul>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Novit&aacute;
+                        <li class="nav-item dropdown position-static">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Novit&agrave;
                             </a>
-                            <!-- DROPDOWN -->
-
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <ul class="dropdown-menu my-menu mt-0 border-0 shadow">
+                                <li class="d-flex flex-row justify-content-center">
+                                    <div class=""><a class="dropdown-item fw-bold " href="#"><img src="img/play-menu-ico.png" class="img-fluid w-75"><br><span>PlayStation 5</span></a></div>
+                                    <div class=""><a class="dropdown-item fw-bold " href="#"><img src="img/play-menu-ico.png" class="img-fluid w-75"><br><span>PlayStation 4</span></a></div>
+                                    <div class=""><a class="dropdown-item fw-bold " href="#"><img src="img/play-menu-ico.png" class="img-fluid w-75"><br><span>PlayStation 3</span></a></div>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li class="d-flex flex-row justify-content-center">
+                                    <div><a class="dropdown-item fw-bold hover-underline-animation" href="#">Indie</a></div>
+                                    <div><a class="dropdown-item fw-bold hover-underline-animation" href="#">Titoli per PS4 su PS5</a></div>
+                                    <div><a class="dropdown-item fw-bold hover-underline-animation" href="#">Free to Play</a></div>
+                                    <div><a class="dropdown-item fw-bold hover-underline-animation" href="#">Promozioni e offerte</a></div>
+                                </li>
                             </ul>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
+                        <li class="nav-item dropdown position-static">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Fai acquisti
                             </a>
-                            <!-- DROPDOWN -->
-
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <ul class="dropdown-menu my-menu mt-0 border-0 shadow">
+                                <li class="d-flex flex-row justify-content-center">
+                                    <div class=""><a class="dropdown-item fw-bold " href="#"><img src="img/play-menu-ico.png" class="img-fluid w-75"><br><span>PlayStation 5</span></a></div>
+                                    <div class=""><a class="dropdown-item fw-bold " href="#"><img src="img/play-menu-ico.png" class="img-fluid w-75"><br><span>PlayStation 4</span></a></div>
+                                    <div class=""><a class="dropdown-item fw-bold " href="#"><img src="img/play-menu-ico.png" class="img-fluid w-75"><br><span>PlayStation 3</span></a></div>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li class="d-flex flex-row justify-content-center">
+                                    <div><a class="dropdown-item fw-bold hover-underline-animation" href="#">Indie</a></div>
+                                    <div><a class="dropdown-item fw-bold hover-underline-animation" href="#">Titoli per PS4 su PS5</a></div>
+                                    <div><a class="dropdown-item fw-bold hover-underline-animation" href="#">Free to Play</a></div>
+                                    <div><a class="dropdown-item fw-bold hover-underline-animation" href="#">Promozioni e offerte</a></div>
+                                </li>
                             </ul>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
+                        <li class="nav-item dropdown position-static">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Supporto
                             </a>
-                            <!-- DROPDOWN -->
-
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <ul class="dropdown-menu my-menu mt-0 border-0 shadow">
+                                <li class="d-flex flex-row justify-content-center">
+                                    <div class=""><a class="dropdown-item fw-bold " href="#"><img src="img/play-menu-ico.png" class="img-fluid w-75"><br><span>PlayStation 5</span></a></div>
+                                    <div class=""><a class="dropdown-item fw-bold " href="#"><img src="img/play-menu-ico.png" class="img-fluid w-75"><br><span>PlayStation 4</span></a></div>
+                                    <div class=""><a class="dropdown-item fw-bold " href="#"><img src="img/play-menu-ico.png" class="img-fluid w-75"><br><span>PlayStation 3</span></a></div>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li class="d-flex flex-row justify-content-center">
+                                    <div><a class="dropdown-item fw-bold hover-underline-animation" href="#">Indie</a></div>
+                                    <div><a class="dropdown-item fw-bold hover-underline-animation" href="#">Titoli per PS4 su PS5</a></div>
+                                    <div><a class="dropdown-item fw-bold hover-underline-animation" href="#">Free to Play</a></div>
+                                    <div><a class="dropdown-item fw-bold hover-underline-animation" href="#">Promozioni e offerte</a></div>
+                                </li>
                             </ul>
-                        </li>
+                        </li>   
                     </ul>
                     <ul class="navbar-nav">
                         <li class="nav-item dropdown">
@@ -141,10 +189,10 @@
                             </a>
                             <!-- DROPDOWN -->
 
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <ul class="dropdown-menu mt-3" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Profilo</a></li>
+                                <li><a class="dropdown-item" href="#">Conto</a></li>
+                                <li><a class="dropdown-item" href="#">Abbonamenti</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -176,6 +224,9 @@
                 </div>
             </div>
         </nav>
+    </header>
+    <!-- MAIN SECTION -->
+    <main>
         <!-- HERO SECTION -->
         <section id="hero" class="container-fluid hero my-padding">
             <div class="d-flex align-items-end ">
@@ -183,15 +234,13 @@
                     <div class="py-3">
                         <img class="w-25 mb-5" src="./img/returnal-hero-banner-logo.png" alt="">
                         <h1 class="col-md-4 display-4">Rompi il cerchio</h1>
-                        <p class="col-md-4 my-5 fs-5">Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5</p>
+                        <p class="col-md-4 my-5 fs-5">Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita
+                            in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5</p>
                         <button class="btn btn-orange btn-lg rounded-pill fw-bold" type="button">Acquista ora</button>
                     </div>
                 </div>\
             </div>
         </section>
-    </header>
-    <!-- MAIN SECTION -->
-    <main>
         <!-- CARD SECTION -->
         <section id="card" class="container-fluid section-spacing">
             <div class="row justify-content-center align-items-center my-5 gy-4">
