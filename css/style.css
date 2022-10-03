@@ -58,6 +58,10 @@ body{
 .my-padding{
     padding-top: 250px;
 }
+.p-reset{
+    padding-right: calc(var(--bs-gutter-x) - .5);
+        padding-left: calc(var(--bs-gutter-x) - .5);
+}
 /* HEADER */
 
 /* BARRA LOGO SONY */
@@ -79,8 +83,7 @@ body{
     margin: 5px 12px;
 }
 /* BARRA DI NAVIGAZIONE */
-#nav {
-    padding: 0 1.25rem;
+#nav {    
     height: 64px;
     min-width: 320px;
     
